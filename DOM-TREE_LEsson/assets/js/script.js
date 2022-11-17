@@ -91,10 +91,41 @@
 //    }
 // }
 
-function go(){
-    let input = document.querySelector('#test');
-    input.value = 'Ой, я поменял свой текст и css';
-    input.type = 'text';
-    input.style = 'color: red; width: 300px; height: 50px;border: 1px solid red; border-radius: 25px; display: flex; flex-direction:column; align-items:flex-start; '
+// №16
+
+// function go(){
+//     let input = document.querySelector('#test');
+//     input.value = 'Ой, я поменял свой текст и css';
+//     input.type = 'text';
+//     input.style = 'color:red; width:300px; height:50px; border-radius:10px; display:flex; flex-direction:column; align-items:flex-start; margin-bottom: 15px;'
     
+// }
+
+// №17
+
+// function go(){
+//     const button_First = document.getElementById('test');
+//     const button_Second = document.getElementById('test2');
+//     button_First.value = 'О, теперь вы не можете на меня нажимать!';
+//     button_First.disabled = true;
+//     button_Second.style = 'display:flex; flex-direction:column; margin-top:15px;'
+// }
+
+// function out(){
+//     const button_First = document.getElementById('test');
+//     const button_Second = document.getElementById('test2');
+//     button_First.value = 'О, на меня снова можно нажимать!';
+//     button_First.disabled = false;
+//     button_Second.style.display = 'none';
+// }
+
+// №18
+
+function go(){
+    const counter = document.getElementById('test');
+    counter.value = parseInt(counter.value) + 1;
+    counter.style = 'width: 200px; margin-bottom: 20px;'
 }
+
+
+
